@@ -96,6 +96,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func actionForgotPassword() {
-        alertError(title: "Did you forgot password?", message: "Your username is '\(user.password)'.")
+        alertError(title: "Did you forgot password?", message: "Your password is '\(user.password)'.")
     }
 }
