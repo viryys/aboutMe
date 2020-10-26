@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserDataViewController.swift
 //  aboutMe
 //
 //  Created by  Vadim Tatarchuk on 26.10.2020.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserDataViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-

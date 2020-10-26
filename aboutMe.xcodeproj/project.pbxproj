@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		AB74D99D2546A0FD00F128F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D99C2546A0FD00F128F4 /* AppDelegate.swift */; };
 		AB74D99F2546A0FD00F128F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D99E2546A0FD00F128F4 /* SceneDelegate.swift */; };
-		AB74D9A12546A0FD00F128F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D9A02546A0FD00F128F4 /* ViewController.swift */; };
+		AB74D9A12546A0FD00F128F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D9A02546A0FD00F128F4 /* LoginViewController.swift */; };
 		AB74D9A42546A0FD00F128F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB74D9A22546A0FD00F128F4 /* Main.storyboard */; };
 		AB74D9A62546A0FF00F128F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB74D9A52546A0FF00F128F4 /* Assets.xcassets */; };
 		AB74D9A92546A0FF00F128F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB74D9A72546A0FF00F128F4 /* LaunchScreen.storyboard */; };
+		AB74D9B32546BC1900F128F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D9B22546BC1900F128F4 /* User.swift */; };
+		AB74D9B72546C43000F128F4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D9B62546C43000F128F4 /* ProfileViewController.swift */; };
+		AB74D9B92546C47500F128F4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D9B82546C47500F128F4 /* SettingsViewController.swift */; };
+		AB74D9BD2546D0D000F128F4 /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74D9BC2546D0D000F128F4 /* UserDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB74D9992546A0FD00F128F4 /* aboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB74D99C2546A0FD00F128F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB74D99E2546A0FD00F128F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB74D9A02546A0FD00F128F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB74D9A02546A0FD00F128F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB74D9A32546A0FD00F128F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB74D9A52546A0FF00F128F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB74D9A82546A0FF00F128F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB74D9AA2546A0FF00F128F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB74D9B22546BC1900F128F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AB74D9B62546C43000F128F4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AB74D9B82546C47500F128F4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AB74D9BC2546D0D000F128F4 /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		AB74D99B2546A0FD00F128F4 /* aboutMe */ = {
 			isa = PBXGroup;
 			children = (
+				AB74D9B12546BBD600F128F4 /* Models */,
 				AB74D99C2546A0FD00F128F4 /* AppDelegate.swift */,
 				AB74D99E2546A0FD00F128F4 /* SceneDelegate.swift */,
-				AB74D9A02546A0FD00F128F4 /* ViewController.swift */,
-				AB74D9A22546A0FD00F128F4 /* Main.storyboard */,
+				AB74D9A02546A0FD00F128F4 /* LoginViewController.swift */,
+				AB74D9B02546B93A00F128F4 /* Storyboards */,
 				AB74D9A52546A0FF00F128F4 /* Assets.xcassets */,
-				AB74D9A72546A0FF00F128F4 /* LaunchScreen.storyboard */,
 				AB74D9AA2546A0FF00F128F4 /* Info.plist */,
+				AB74D9B62546C43000F128F4 /* ProfileViewController.swift */,
+				AB74D9B82546C47500F128F4 /* SettingsViewController.swift */,
+				AB74D9BC2546D0D000F128F4 /* UserDataViewController.swift */,
 			);
 			path = aboutMe;
+			sourceTree = "<group>";
+		};
+		AB74D9B02546B93A00F128F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AB74D9A22546A0FD00F128F4 /* Main.storyboard */,
+				AB74D9A72546A0FF00F128F4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AB74D9B12546BBD600F128F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB74D9B22546BC1900F128F4 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB74D9A12546A0FD00F128F4 /* ViewController.swift in Sources */,
+				AB74D9B72546C43000F128F4 /* ProfileViewController.swift in Sources */,
+				AB74D9B32546BC1900F128F4 /* User.swift in Sources */,
+				AB74D9B92546C47500F128F4 /* SettingsViewController.swift in Sources */,
+				AB74D9BD2546D0D000F128F4 /* UserDataViewController.swift in Sources */,
+				AB74D9A12546A0FD00F128F4 /* LoginViewController.swift in Sources */,
 				AB74D99D2546A0FD00F128F4 /* AppDelegate.swift in Sources */,
 				AB74D99F2546A0FD00F128F4 /* SceneDelegate.swift in Sources */,
 			);
